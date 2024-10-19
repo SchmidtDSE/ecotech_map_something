@@ -2,6 +2,8 @@ version: 1
 site:
   title: Map Something!
   template: book-theme
+  hide_toc: true
+  hide_outline: true
   options:
     # favicon: favicon.ico
     logo: myst/images/dse-2.black-crop.small.png
@@ -21,6 +23,7 @@ project:
       department: The Eric and Wendy Schmidt Center for Data Science
   github: https://github.com/SchmidtDSE/map_something
   toc:
+    # - file: myst/playground_main.md
     - file: myst/main.md
     - file: myst/supplemental/notes.md
     - file: nb/lonboard/data_filtering.ipynb

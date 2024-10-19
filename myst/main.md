@@ -1,37 +1,26 @@
 ---
 abstract: |
-    We are going to discussing mapping things. This file,
-    `main.md`, is going to be where the talk content lives.
+    We are going to discussing mapping things.
 keywords:
-    - gis
+    - mapping
     - vector
     - raster
+    - leafmap
+    - datashader
+    - lonboard
 
 acknowledgments: |
-    The authors would like to thank nice people for exisiting.
-    Eric and Wendy Schmidt of course being a couple of them.
-    Please have a nice day.
+    The authors would like to thank Eric and Wendy Schmidt.
 
 data_availability: |
     All code and analysis is open-source and available on github:
-    https://github.com/SchmidtDSE/map_something
+    https://github.com/SchmidtDSE/ecotech_map_something
 
 ---
 
-```{include} sections/intro.md
-```
+This website will house notes and resources for the upcoming DSE EcoTech Seminar on mapping.
 
-```{include} sections/data.md
-```
+Oct. 23 _Map Something!_
 
-```{include} sections/raster.md
-```
-
-```{include} sections/vector.md
-```
-
-```{include} sections/big.md
-```
-
-```{include} sections/discussion.md
+See https://dse.berkeley.edu/news/ecotech-connect for more information.
 ```
