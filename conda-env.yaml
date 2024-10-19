@@ -1,0 +1,59 @@
+name: map_something
+channels:
+  - conda-forge
+  - apple
+
+dependencies:
+  # base
+  - python=3.10
+  - pip
+  - ipykernel
+  - jupyterlab
+  # base
+  - pandas-stubs
+  - numpy
+  - pandas
+  - xarray
+  - matplotlib
+  - seaborn
+  - sidecar
+  - pyarrow
+  - fastparquet
+  # geo
+  - geojson
+  - shapely
+  - geopandas
+  - affine
+  - rasterio
+  - rioxarray
+  - earthengine-api
+  - lonboard
+  # leafmap
+  - leafmap
+  # datashader
+  - dask
+  - intake
+  - datashader
+  - colorcet
+  - holoviews
+  - hvplot
+  - geoviews
+  - cartopy
+  # clean-coding
+  - pycodestyle
+  - mypy
+  # notes
+  - mystmd
+  - jupyterlab-myst
+  - pytables
+
+
+
+
+######## INSTAL ENV FOR JUPYTER LAB ###################
+#
+# conda activate
+# python -m ipykernel install --user --name map_something --display-name "Python (map_something)"
+# jupyter lab .
+#
+#######################################################

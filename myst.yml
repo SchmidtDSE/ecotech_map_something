@@ -1,0 +1,27 @@
+version: 1
+site:
+  title: Map Something!
+  template: book-theme
+  options:
+    # favicon: favicon.ico
+    logo: myst/images/dse-2.black-crop.small.png
+    logo_dark: myst/images/dse-2.white-crop.small.png
+project:
+  title: Map Something!
+  subtitle: what and how
+  authors:
+    - name: Brookie Guzder-Williams
+      orcid: 0000-0001-6855-8260
+      corresponding: true
+      email: bguzder-williams@berkeley.edu
+      affiliation: dse
+  affiliations:
+    - id: dse
+      institution: University of California, Berkeley
+      department: The Eric and Wendy Schmidt Center for Data Science
+  github: https://github.com/SchmidtDSE/map_something
+  toc:
+    - file: myst/main.md
+    - file: myst/supplemental/notes.md
+    - file: nb/lonboard/data_filtering.ipynb
+    - file: nb/leafmap/03_cog_stac.ipynb
