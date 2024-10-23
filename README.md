@@ -1,6 +1,14 @@
-#### Map Something
+## Map Something
 
-A quick overview of putting things on maps
+_A quick overview of putting things on maps_
+
+This repo contains the (myst) markdown, code and data used to produce [this](https://schmidtdse.github.io/ecotech_map_something/) talk.
+
+The presentation is part of DSE's [EcoTech Series](https://dse.berkeley.edu/news/ecotech-connect
+) for 2024.
+
+
+Visit https://dse.berkeley.edu to learn more
 
 --- 
 
@@ -15,78 +23,26 @@ mamba env create -f conda-env.yaml
 mamba env update -f conda-env.yaml --prune
 ```
 
---- 
-
-#### OVERVIEW
-
-```
-├── LICENSE.md
-├── README.md
-├── __init__.py
-├── conda-env.yaml
-├── main.md
-├── map_something
-│	└── __init__.py
-├── myst
-│	├── sections
-│	│	├── big.md
-│	│	├── data.md
-│	│	├── discussion.md
-│	│	├── intro.md
-│	│	├── raster.md
-│	│	└── vector.md
-│	└── supplemental
-│		└── notes.md
-├── myst.yml
-├── notes
-│	└── scratch.md
-├── pyproject.toml
-└── setup.cfg
-```
-
 ---
 
-#### Outline
+#### OUTLINE
 
-1. A very quick motivation for mapping
-2. Raster vs. Vector Data
-	- quick examples of basic versions of each
-	- touch on file-types
-		- tiff vs cog
-		- csv, geojson, shape, geoparquet, zarr
-3. Mapping Libraries
-	- geopandas
-	- xarray
-	- leafmap
-	- geemap
-	- datashader
-	- lonboard
-4. Usage
-	- geopandas/xarray
-	- leafmap
-		- maptiles
-		- tif
-		- cog
-		- vector
-	- gee
-		- geemap
-		- gee (app)
-	- lonboard
-	- kepler.gl
-		- notebook
-		- app
-5. Maybe
-	- localtileserver https://localtileserver.banesullivan.com/
-	- geopy
-	- datashader
-6. Supplemental
-	- install mamba or conda
-	- install gee
-	- more on file-types
-	- graphs/charts
-	- interactive graphs/charts
-	- h3
-	- geohash
+1. Map Rasters!
+    - geotiffs
+    - projections, crs, and affine-transforms
+    - xarray
+    - cogs
+    - zarr
+    - leafmap
+2. Map vectors!
+    - geopandas
+    - file-types
+    - leafmap
+    - lonboard
+3. GEE
+    - code editor
+    - apps
+    - geemap
 
 --- 
 

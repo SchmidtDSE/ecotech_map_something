@@ -36,14 +36,14 @@ Earth Engine also alows you to turn simple scripts like the one above into publi
 :align: center
 ```
 
-[Here](https://dse-ee-playground.projects.earthengine.app/view/ecohack-geeapp-fires-demo) is the resulting app
+[Here](https://dse-ee-playground.projects.earthengine.app/view/ecotech-geeapp-fires-demo) is the resulting app
 
 ```{figure} ../../assets/gee-simple-app
 :width: 100%
 :align: center
 
 
-https://dse-ee-playground.projects.earthengine.app/view/ecohack-geeapp-fires-demo
+https://dse-ee-playground.projects.earthengine.app/view/ecotech-geeapp-fires-demo
 ```
 
 One can go far beyond the simple app above. [Here](https://brookie.users.earthengine.app/view/calfires-explorer) is an example of a more advance app
