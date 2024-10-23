@@ -63,6 +63,25 @@ mamba env create -f conda-env.yaml
 mamba env update -f conda-env.yaml --prune
 ```
 
+4. run
+
+- notebooks
+
+```bash
+jupyter lab .
+```
+- presentation
+
+```bash
+myst start
+```
+
+- (optional) launch tile server
+
+```bash
+cd maptiles
+uvicorn app:app --reload
+```
 ---
 
 #### OUTLINE

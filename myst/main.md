@@ -9,26 +9,31 @@ data_availability: |
 
 ---
 
-#### LINKS
+###### LINKS
 
-https://dse.berkeley.edu \
-https://dse.berkeley.edu/news/ecotech-connect \
-https://guide.cloudnativegeo.org/ \
-https://developmentseed.org/lonboard/latest/ \
-https://leafmap.org/ \
-[https://www.youtube.com/\@MattForrest](https://www.youtube.com/@MattForrest)
+- presentation:&nbsp;&nbsp;&nbsp; https://schmidtdse.github.io/ecotech_map_something \
+- repo:&nbsp;&nbsp;&nbsp;  https://github.com/SchmidtDSE/ecotech_map_something \
+- dse:&nbsp;&nbsp;&nbsp;  https://dse.berkeley.edu \
+- echotech:&nbsp;&nbsp;&nbsp;  https://dse.berkeley.edu/news/ecotech-connect \
+- cloud-native-geo:&nbsp;&nbsp;&nbsp;  https://guide.cloudnativegeo.org/ \
+- leafmap:&nbsp;&nbsp;&nbsp;  https://leafmap.org/ \
+- lonboard:&nbsp;&nbsp;&nbsp;  https://developmentseed.org/lonboard/latest/ \
+- podcast:&nbsp;&nbsp;&nbsp;  [https://www.youtube.com/\@MattForrest](https://www.youtube.com/@MattForrest)
 
 ---
 
-#### MAP WHAT?
+###### MAP WHAT?
 
 _rasters, points, lines, polygons ... data!_
 
-INSERT QGIS SCREEN SHOTS
 
+```{figure} ../assets/qgis-dem
+:width: 100%
+:align: center
+```
 ---
 
-#### OUTLINE
+###### OUTLINE
 
 1. Map Rasters!
     - geotiffs
