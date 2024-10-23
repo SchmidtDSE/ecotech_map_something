@@ -8,7 +8,8 @@ The presentation is part of DSE's [EcoTech Series](https://dse.berkeley.edu/news
 ) for 2024.
 
 
-Visit https://dse.berkeley.edu to learn more
+- Visit https://dse.berkeley.edu to learn more
+- Live Site: https://schmidtdse.github.io/ecotech_map_something
 
 --- 
 
@@ -23,12 +24,19 @@ cd ecotech_map_something
 
 2. fetch the data
 
-The data can be downloaded from google-cloud-storage, as a zip-file, or file by file:
+The data can be downloaded from google-cloud-storage using the gcloud command-line tool (this takes about 1.5 minutes)
 
-zip-file: https://storage.googleapis.com/ecotech-map-something/data.zip
+```
+gcloud storage cp --recursive ecotech-map-something/data/ .
+```
+
+You can also use the web-interface, and download either as a zip-file, or file by file:
+
+zip-file: https://storage.googleapis.com/ecotech-map-something/data.zip  (takes about 3 minutes)
 folder: https://console.cloud.google.com/storage/browser/ecotech-map-something/data
 
-The "data" directory should be place at the root of the repo with this structure:
+The "data" directory should be at the root of the repo (ie `.../ecotech_map_something/data`) and have structure:
+
 ```
 data
 ├── raster
