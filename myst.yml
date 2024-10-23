@@ -27,12 +27,12 @@ project:
   github: https://github.com/SchmidtDSE/map_something
   toc:
     - file: myst/main.md
-    # - file: myst/wip_main.md
-    # - file: myst/sections/raster.md
-    # - file: myst/sections/vector.md
-    # - file: myst/sections/gee.md
-    # - file: myst/sections/discussion.md
-    # - file: nb/RasterData.ipynb
-    # - file: nb/RasterMaps.ipynb
-    # - file: nb/VectorData.ipynb
+    - file: myst/sections/raster.md
+    - file: myst/sections/vector.md
+    - file: myst/sections/gee.md
+    - file: myst/sections/discussion.md
+    - file: nb/RasterData.ipynb
+    - file: nb/RasterMaps.ipynb
+    - file: nb/VectorMaps.ipynb
+    - file: nb/GeeMap.ipynb
 
