@@ -1,9 +1,6 @@
 ---
 title: Map Something!
 subtitle: an overview of python tools and techniques for mapping data
-data_availability: |
-    All code and analysis is open-source and available on github:
-    https://github.com/SchmidtDSE/ecotech_map_something
 ---
 
 
