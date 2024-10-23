@@ -11,13 +11,13 @@ data_availability: |
 
 ###### LINKS
 
-- presentation:&nbsp;&nbsp;&nbsp; https://schmidtdse.github.io/ecotech_map_something \
-- repo:&nbsp;&nbsp;&nbsp;  https://github.com/SchmidtDSE/ecotech_map_something \
-- dse:&nbsp;&nbsp;&nbsp;  https://dse.berkeley.edu \
-- echotech:&nbsp;&nbsp;&nbsp;  https://dse.berkeley.edu/news/ecotech-connect \
-- cloud-native-geo:&nbsp;&nbsp;&nbsp;  https://guide.cloudnativegeo.org/ \
-- leafmap:&nbsp;&nbsp;&nbsp;  https://leafmap.org/ \
-- lonboard:&nbsp;&nbsp;&nbsp;  https://developmentseed.org/lonboard/latest/ \
+- presentation:&nbsp;&nbsp;&nbsp; https://schmidtdse.github.io/ecotech_map_something
+- repo:&nbsp;&nbsp;&nbsp;  https://github.com/SchmidtDSE/ecotech_map_something
+- dse:&nbsp;&nbsp;&nbsp;  https://dse.berkeley.edu
+- echotech:&nbsp;&nbsp;&nbsp;  https://dse.berkeley.edu/news/ecotech-connect
+- cloud-native-geo:&nbsp;&nbsp;&nbsp;  https://guide.cloudnativegeo.org
+- leafmap:&nbsp;&nbsp;&nbsp;  https://leafmap.org
+- lonboard:&nbsp;&nbsp;&nbsp;  https://developmentseed.org/lonboard/latest
 - podcast:&nbsp;&nbsp;&nbsp;  [https://www.youtube.com/\@MattForrest](https://www.youtube.com/@MattForrest)
 
 ---
