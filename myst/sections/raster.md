@@ -36,6 +36,12 @@ What makes a GeoTiff different than a traditional image.
 
 * __EPSG:4326__: A global CRS (on WGS84) using latitude and longitude coordinates in degrees
 * __UTM (EPSG:32HZZ)__: UTM CRS divide the northern and southern hemisphere up into 60 zones of 6$\degree$ longitude.  The EPSG codes are broken up 32 (UTM) [6,7] (north or south) [01-60] zone. Each EPSG uses x and y coordinates measured in meters.
+
+```{figure} ../../assets/utm-grid
+:width: 90%
+:align: center
+```
+
 * __EPSG:3857__: A global CRS (on WGS84) using x and y coordinates in meters. This is a great choice for visualizations (online maps) but is only accurate near the equator and therefore shouldn't be used for calculations
 
 ---
