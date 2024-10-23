@@ -11,6 +11,7 @@ dependencies:
   - jupyterlab
   # base
   - pandas-stubs
+  - sklearn
   - numpy
   - pandas
   - xarray
@@ -19,6 +20,7 @@ dependencies:
   - sidecar
   - pyarrow
   - fastparquet
+  - zarr
   # geo
   - geojson
   - shapely
@@ -26,19 +28,25 @@ dependencies:
   - affine
   - rasterio
   - rioxarray
+  - rio-cogeo
   - earthengine-api
-  - lonboard
   # leafmap
+  - localtileserver
+  - ipyleaflet
   - leafmap
-  # datashader
-  - dask
-  - intake
-  - datashader
-  - colorcet
-  - holoviews
-  - hvplot
-  - geoviews
-  - cartopy
+  - fiona
+  - flask = 2.3.3
+  - geemap
+  # lonboard
+  - lonboard
+  - pyogrio
+  - requests
+  - palettable
+  - tqdm
+  # tiles
+  - fastapi
+  - uvicorn
+  - rio-tiler
   # clean-coding
   - pycodestyle
   - mypy
@@ -46,8 +54,7 @@ dependencies:
   - mystmd
   - jupyterlab-myst
   - pytables
-
-
+  - rich
 
 
 ######## INSTAL ENV FOR JUPYTER LAB ###################

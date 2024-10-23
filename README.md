@@ -46,9 +46,47 @@ mamba env update -f conda-env.yaml --prune
 
 ---
 
-#### DOCUMENTATION
+#### Outline
 
-API Docss
+1. A very quick motivation for mapping
+2. Raster vs. Vector Data
+	- quick examples of basic versions of each
+	- touch on file-types
+		- tiff vs cog
+		- csv, geojson, shape, geoparquet, zarr
+3. Mapping Libraries
+	- geopandas
+	- xarray
+	- leafmap
+	- geemap
+	- datashader
+	- lonboard
+4. Usage
+	- geopandas/xarray
+	- leafmap
+		- maptiles
+		- tif
+		- cog
+		- vector
+	- gee
+		- geemap
+		- gee (app)
+	- lonboard
+	- kepler.gl
+		- notebook
+		- app
+5. Maybe
+	- localtileserver https://localtileserver.banesullivan.com/
+	- geopy
+	- datashader
+6. Supplemental
+	- install mamba or conda
+	- install gee
+	- more on file-types
+	- graphs/charts
+	- interactive graphs/charts
+	- h3
+	- geohash
 
 --- 
 
