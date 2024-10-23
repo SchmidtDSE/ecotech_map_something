@@ -9,7 +9,7 @@ There is so much more to discuss
 
 ---
 
-Let's go explore the code!
+Let's go explore the [code](https://github.com/SchmidtDSE/ecotech_map_something/tree/main?tab=readme-ov-file#install)!
 
 ---
 
