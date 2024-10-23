@@ -12,7 +12,39 @@ Visit https://dse.berkeley.edu to learn more
 
 --- 
 
-#### REQUIREMENTS
+#### INSTALL
+
+1. clone the repository
+
+```bash
+git clone https://github.com/SchmidtDSE/ecotech_map_something.git
+cd ecotech_map_something
+```
+
+2. fetch the data
+
+The data can be downloaded from google-cloud-storage, as a zip-file, or file by file:
+
+zip-file: https://storage.googleapis.com/ecotech-map-something/data.zip
+folder: https://console.cloud.google.com/storage/browser/ecotech-map-something/data
+
+The "data" directory should be place at the root of the repo with this structure:
+```
+data
+├── raster
+│	├── cogs
+│	├── tahoe-dem.tif
+│	└── tahoe-mean-s2-20210101_20210301.tif
+└── vector
+    └── CalFires_Boundaries21
+        ├── CalFires_Boundaries21.cpg
+        ├── CalFires_Boundaries21.dbf
+        ├── CalFires_Boundaries21.prj
+        ├── CalFires_Boundaries21.shp
+        └── CalFires_Boundaries21.shx
+```
+
+3. install requirements
 
 Requirements are managed through a conda yaml [file](./conda-env.yaml). To create/update the `ENV_NAME` environment:
 
