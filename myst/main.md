@@ -48,6 +48,3 @@ _rasters, points, lines, polygons ... data!_
     - geemap
     - gee playground
     - gee app
-
-
-
