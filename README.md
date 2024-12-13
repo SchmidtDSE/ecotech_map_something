@@ -109,4 +109,3 @@ uvicorn app:app --reload
 
 Following PEP8. See [setup.cfg](./setup.cfg) for exceptions. Keeping honest with `pycodestyle .` and `mypy .`
 
-
