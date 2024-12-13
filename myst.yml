@@ -1,6 +1,6 @@
 version: 1
 site:
-  title: Map Something!
+  title: Map Something! (WIP)
   template: book-theme
   hide_toc: true
   hide_outline: true
