@@ -4,11 +4,11 @@ name: MyST GitHub Pages Deploy
 on:
   push:
     # Runs on pushes targeting the default branch
-    branches: [main]
+    branches: [temp/ghp]
 env:
   # `BASE_URL` determines the website is served from, including CSS & JS assets
   # You may need to change this to `BASE_URL: ''`
-  BASE_URL: /${{ github.event.repository.name }}.test
+  BASE_URL: /${{ github.event.repository.name }}/test
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
 permissions:
